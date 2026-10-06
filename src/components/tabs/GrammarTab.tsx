@@ -123,6 +123,27 @@ const UNIT_ERROR_CHALLENGES: {
     correctWord: "like",
     explanation: "Sau \"Do you\" động từ giữ nguyên: Do you like yogurt?",
   },
+  13: {
+    sentence: "There is three books under the bed.",
+    words: ["There", "is", "three", "books", "under", "the", "bed."],
+    wrongIndex: 1,
+    correctWord: "are",
+    explanation: "Có ba quyển sách (số nhiều) nên dùng \"There are\": There are three books under the bed.",
+  },
+  14: {
+    sentence: "He can flies.",
+    words: ["He", "can", "flies."],
+    wrongIndex: 2,
+    correctWord: "fly",
+    explanation: "Sau \"can\" động từ giữ nguyên: He can fly.",
+  },
+  15: {
+    sentence: "Let's plays ball!",
+    words: ["Let's", "plays", "ball!"],
+    wrongIndex: 1,
+    correctWord: "play",
+    explanation: "Sau \"Let's\" dùng động từ nguyên mẫu: Let's play ball!",
+  },
 };
 
 export const GrammarTab: React.FC<GrammarTabProps> = ({ unit, onAwardPoints }) => {

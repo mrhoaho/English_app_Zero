@@ -1,10 +1,23 @@
 import { UnitData } from '../types';
-import { UNITS_PART2 } from './unitsDataPart2';
-import { UNITS_PART3 } from './unitsDataPart3';
+import { UNIT_2 } from './units/u02';
+import { UNIT_3 } from './units/u03';
+import { UNIT_4 } from './units/u04';
+import { UNIT_5 } from './units/u05';
+import { UNIT_6 } from './units/u06';
+import { UNIT_7 } from './units/u07';
+import { UNIT_8 } from './units/u08';
+import { UNIT_9 } from './units/u09';
+import { UNIT_10 } from './units/u10';
+import { UNIT_11 } from './units/u11';
+import { UNIT_12 } from './units/u12';
+import { UNIT_13 } from './units/u13';
+import { UNIT_14 } from './units/u14';
+import { UNIT_15 } from './units/u15';
 
 /**
  * Nội dung theo giáo trình Family and Friends 1 (Oxford University Press).
- * Starter + Unit 1 nằm tại đây; Unit 2–7 ở unitsDataPart2.ts, Unit 8–12 ở unitsDataPart3.ts.
+ * Starter + Unit 1 nằm tại đây; Unit 2–15 mỗi unit một file trong thư mục units/ (u02.ts ... u15.ts).
+ * Tên unit theo mục lục sách (Scope and sequence): Starter Hello!, 1 What's this?, 2 Playtime!, ... 15 Let's play ball!.
  * Lưu ý: trường `meaning` của ví dụ ngữ pháp có dạng "Dịch câu hỏi - Dịch câu trả lời"
  * (tab Phát âm tách theo dấu "-" nên không dùng thêm dấu gạch ngang trong phần dịch).
  */
@@ -402,6 +415,18 @@ export const UNITS_DATA: UnitData[] = [
       ],
     },
   },
-  ...UNITS_PART2,
-  ...UNITS_PART3,
+  UNIT_2,
+  UNIT_3,
+  UNIT_4,
+  UNIT_5,
+  UNIT_6,
+  UNIT_7,
+  UNIT_8,
+  UNIT_9,
+  UNIT_10,
+  UNIT_11,
+  UNIT_12,
+  UNIT_13,
+  UNIT_14,
+  UNIT_15,
 ];
