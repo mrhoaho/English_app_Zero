@@ -1,0 +1,6 @@
+{
+  "name": "Zero Mbappe - Family and Friends 1",
+  "description": "Ứng dụng học Tiếng Anh Family and Friends 1 tương tác dành cho bé: ôn tập kiến thức, luyện từ mới, giao tiếp, phát âm giọng nói, đọc hiểu và hệ thống game lên cấp gamification.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
